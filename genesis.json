@@ -1,0 +1,260 @@
+{
+  "genesis_time": "2019-10-31T08:42:06.933390308Z",
+  "chain_id": "xar-chain-panda",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "nft": {
+      "owners": [],
+      "collections": {}
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "ftm",
+        "amount": "1000"
+      }
+    },
+    "supply": {
+      "supply": []
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ftm",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "issue": {
+      "starting_issue_id": "100000000000",
+      "issues": null,
+      "params": {
+        "issue_fee": {
+          "denom": "ftm",
+          "amount": "10000000"
+        },
+        "mint_fee": {
+          "denom": "ftm",
+          "amount": "0"
+        },
+        "freeze_fee": {
+          "denom": "ftm",
+          "amount": "0"
+        },
+        "unfreeze_fee": {
+          "denom": "ftm",
+          "amount": "0"
+        },
+        "burn_fee": {
+          "denom": "ftm",
+          "amount": "0"
+        },
+        "burn_from_fee": {
+          "denom": "ftm",
+          "amount": "0"
+        },
+        "transfer_owner_fee": {
+          "denom": "ftm",
+          "amount": "10000000"
+        },
+        "describe_fee": {
+          "denom": "ftm",
+          "amount": "400000"
+        }
+      }
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "xar197ms3elfk5v6asnq3kqducmaxf0ms0xw52xvyr",
+            "coins": [
+              {
+                "denom": "ftm",
+                "amount": "1000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        }
+      ]
+    },
+    "params": null,
+    "pricefeed": {
+      "Assets": [
+        {
+          "asset_code": "btc",
+          "description": "Bitcoin"
+        },
+        {
+          "asset_code": "bnb",
+          "description": "Binance Chain Coin"
+        },
+        {
+          "asset_code": "eth",
+          "description": "Ethereum"
+        },
+        {
+          "asset_code": "ftm",
+          "description": "Fantom"
+        }
+      ],
+      "Oracles": []
+    },
+    "auction": {},
+    "genutil": {
+      "gentxs": null
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "bond_denom": "ftm"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "cdp": {
+      "params": {
+        "GlobalDebtLimit": "1000000",
+        "CollateralParams": [
+          {
+            "Denom": "btc",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000"
+          },
+          {
+            "Denom": "bnb",
+            "LiquidationRatio": "2.000000000000000000",
+            "DebtLimit": "500000"
+          },
+          {
+            "Denom": "eth",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000"
+          },
+          {
+            "Denom": "ftm",
+            "LiquidationRatio": "3.000000000000000000",
+            "DebtLimit": "500000"
+          }
+        ]
+      },
+      "global_debt": "0"
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "ftm",
+            "amount": "1000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "liquidator": {
+      "params": {
+        "DebtAuctionSize": "1000",
+        "CollateralParams": [
+          {
+            "Denom": "btc",
+            "AuctionSize": "1"
+          },
+          {
+            "Denom": "bnb",
+            "AuctionSize": "100"
+          },
+          {
+            "Denom": "eth",
+            "AuctionSize": "10"
+          },
+          {
+            "Denom": "ftm",
+            "AuctionSize": "100000"
+          }
+        ]
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    }
+  }
+}

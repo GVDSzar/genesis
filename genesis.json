@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-11-15T06:03:20.296824277Z",
+  "genesis_time": "2019-11-15T11:20:58.4882662Z",
   "chain_id": "xar-chain-panda-1",
   "consensus_params": {
     "block": {
@@ -18,6 +18,91 @@
   },
   "app_hash": "",
   "app_state": {
+    "crisis": {
+      "constant_fee": {
+        "denom": "uftm",
+        "amount": "1000000000"
+      }
+    },
+    "supply": {
+      "supply": []
+    },
+    "liquidityprovider": {
+      "accounts": null
+    },
+    "liquidator": {
+      "params": {
+        "DebtAuctionSize": "1000000000",
+        "CollateralParams": [
+          {
+            "Denom": "ubtc",
+            "AuctionSize": "1000"
+          },
+          {
+            "Denom": "ubnb",
+            "AuctionSize": "100000"
+          },
+          {
+            "Denom": "ueth",
+            "AuctionSize": "10000"
+          },
+          {
+            "Denom": "uftm",
+            "AuctionSize": "10000000000"
+          }
+        ]
+      }
+    },
+    "csdt": {
+      "params": {
+        "GlobalDebtLimit": "25000000000000",
+        "CollateralParams": [
+          {
+            "Denom": "ubtc",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000000000"
+          },
+          {
+            "Denom": "ubnb",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000000000"
+          },
+          {
+            "Denom": "ueth",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000000000"
+          },
+          {
+            "Denom": "uftm",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000000000"
+          },
+          {
+            "Denom": "uzar",
+            "LiquidationRatio": "1.300000000000000000",
+            "DebtLimit": "500000000000"
+          }
+        ]
+      },
+      "global_debt": "130000000000"
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
     "gov": {
       "starting_proposal_id": "1",
       "deposits": null,
@@ -41,12 +126,26 @@
         "veto": "0.334000000000000000"
       }
     },
-    "nft": {
-      "owners": [],
-      "collections": {}
-    },
-    "authority": {
-      "authority_key": "xar1n3e4ujsgs8uuc6ew6qzn0nu8jzsg6y3vmcg7pt"
+    "oracle": {
+      "assets": [
+        {
+          "asset_code": "ubtc",
+          "description": "uBitcoin"
+        },
+        {
+          "asset_code": "ubnb",
+          "description": "uBinance Chain Coin"
+        },
+        {
+          "asset_code": "ueth",
+          "description": "uEthereum"
+        },
+        {
+          "asset_code": "uftm",
+          "description": "uFantom"
+        }
+      ],
+      "oracles": []
     },
     "issue": {
       "starting_issue_id": "100000000000",
@@ -86,41 +185,9 @@
         }
       }
     },
-    "supply": {
-      "supply": []
-    },
-    "csdt": {
-      "params": {
-        "GlobalDebtLimit": "25000000000000",
-        "CollateralParams": [
-          {
-            "Denom": "ubtc",
-            "LiquidationRatio": "1.500000000000000000",
-            "DebtLimit": "500000000000"
-          },
-          {
-            "Denom": "ubnb",
-            "LiquidationRatio": "1.500000000000000000",
-            "DebtLimit": "500000000000"
-          },
-          {
-            "Denom": "ueth",
-            "LiquidationRatio": "1.500000000000000000",
-            "DebtLimit": "500000000000"
-          },
-          {
-            "Denom": "uftm",
-            "LiquidationRatio": "1.500000000000000000",
-            "DebtLimit": "500000000000"
-          },
-          {
-            "Denom": "uzar",
-            "LiquidationRatio": "1.300000000000000000",
-            "DebtLimit": "500000000000"
-          }
-        ]
-      },
-      "global_debt": "0"
+    "nft": {
+      "owners": [],
+      "collections": {}
     },
     "slashing": {
       "params": {
@@ -134,16 +201,36 @@
       "signing_infos": {},
       "missed_blocks": {}
     },
-    "crisis": {
-      "constant_fee": {
-        "denom": "uftm",
-        "amount": "1000000000"
+    "auction": {},
+    "evidence": {
+      "evidence": []
+    },
+    "params": null,
+    "mint": {
+      "minter": {
+        "inflation": "0.040000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "stake",
+        "inflation_rate_change": "0.020000000000000000",
+        "inflation_max": "0.100000000000000000",
+        "inflation_min": "0.020000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "126489600"
       }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "record": {
+      "starting_record_id": "100000000000",
+      "records": null
     },
     "staking": {
       "params": {
         "unbonding_time": "1814400000000000",
-        "max_validators": 100,
+        "max_validators": 21,
         "max_entries": 7,
         "bond_denom": "ucsdt"
       },
@@ -155,26 +242,18 @@
       "redelegations": null,
       "exported": false
     },
-    "oracle": {
-      "assets": [
-        {
-          "asset_code": "ubtc",
-          "description": "uBitcoin"
-        },
-        {
-          "asset_code": "ubnb",
-          "description": "uBinance Chain Coin"
-        },
-        {
-          "asset_code": "ueth",
-          "description": "uEthereum"
-        },
-        {
-          "asset_code": "uftm",
-          "description": "uFantom"
-        }
-      ],
-      "oracles": []
+    "genutil": {
+      "gentxs": null
+    },
+    "issuer": {
+      "issuers": null
+    },
+    "interest": {
+      "assets": {
+        "last_applied": "2019-11-15T11:20:58.4872688Z",
+        "last_applied_height": "0",
+        "assets": []
+      }
     },
     "swap": {
       "coin_denom": "uftm",
@@ -190,51 +269,6 @@
           }
         }
       ]
-    },
-    "distribution": {
-      "fee_pool": {
-        "community_pool": []
-      },
-      "community_tax": "0.020000000000000000",
-      "base_proposer_reward": "0.010000000000000000",
-      "bonus_proposer_reward": "0.040000000000000000",
-      "withdraw_addr_enabled": true,
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
-    },
-    "record": {
-      "starting_record_id": "100000000000",
-      "records": null
-    },
-    "mint": {
-      "minter": {
-        "inflation": "0.040000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "ucsdt",
-        "inflation_rate_change": "0.010000000000000000",
-        "inflation_max": "0.100000000000000000",
-        "inflation_min": "0.020000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "126489600"
-      }
-    },
-    "liquidityprovider": {
-      "accounts": null
-    },
-    "interest": {
-      "assets": {
-        "last_applied": "2019-11-15T06:03:20.296655432Z",
-        "last_applied_height": "0",
-        "assets": []
-      }
     },
     "auth": {
       "params": {
@@ -259,46 +293,15 @@
                 "amount": "1000000000000"
               }
             ],
-            "public_key": null,
-            "account_number": "0",
-            "sequence": "0"
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
           }
         }
       ]
     },
-    "params": null,
-    "auction": {},
-    "bank": {
-      "send_enabled": true
-    },
-    "issuer": {
-      "issuers": null
-    },
-    "genutil": {
-      "gentxs": null
-    },
-    "liquidator": {
-      "params": {
-        "DebtAuctionSize": "100000000",
-        "CollateralParams": [
-          {
-            "Denom": "ubtc",
-            "AuctionSize": "1000"
-          },
-          {
-            "Denom": "ubnb",
-            "AuctionSize": "100000"
-          },
-          {
-            "Denom": "ueth",
-            "AuctionSize": "10000"
-          },
-          {
-            "Denom": "uftm",
-            "AuctionSize": "1000000000"
-          }
-        ]
-      }
+    "authority": {
+      "authority_key": "xar1n3e4ujsgs8uuc6ew6qzn0nu8jzsg6y3vmcg7pt"
     }
   }
 }

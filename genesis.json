@@ -1,6 +1,6 @@
 {
   "genesis_time": "2019-11-15T06:03:20.296824277Z",
-  "chain_id": "xar-chain-panda",
+  "chain_id": "xar-chain-panda-1",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -46,7 +46,7 @@
       "collections": {}
     },
     "authority": {
-      "authority_key": "xar1xekmdsas70get2vudq3l6vy3tnwaxl69kgm2jh"
+      "authority_key": "xar1n3e4ujsgs8uuc6ew6qzn0nu8jzsg6y3vmcg7pt"
     },
     "issue": {
       "starting_issue_id": "100000000000",
@@ -185,7 +185,7 @@
             "amount": "76"
           },
           "balance_token": {
-            "denom": "csdt",
+            "denom": "ucsdt",
             "amount": "1"
           }
         }
@@ -248,7 +248,7 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "xar177q48yxn8cgde6aqv3j66smwq7daaqhwnx6042",
+            "address": "xar1rprq4e49ym2k5395ztyahen7wn9xm7duu8l38l",
             "coins": [
               {
                 "denom": "ucsdt",
@@ -279,7 +279,7 @@
     },
     "liquidator": {
       "params": {
-        "DebtAuctionSize": "1000000000",
+        "DebtAuctionSize": "100000000",
         "CollateralParams": [
           {
             "Denom": "ubtc",
@@ -295,7 +295,7 @@
           },
           {
             "Denom": "uftm",
-            "AuctionSize": "10000000000"
+            "AuctionSize": "1000000000"
           }
         ]
       }

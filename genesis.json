@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-11-15T11:20:58.4882662Z",
+  "genesis_time": "2019-11-18T06:00:00.000000000Z",
   "chain_id": "xar-chain-panda-1",
   "consensus_params": {
     "block": {
@@ -36,12 +36,12 @@
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "stake",
+        "mint_denom": "ucsdt",
         "inflation_rate_change": "0.020000000000000000",
         "inflation_max": "0.100000000000000000",
         "inflation_min": "0.020000000000000000",
         "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "126489600"
+        "blocks_per_year": "31622400"
       }
     },
     "distribution": {

@@ -18,73 +18,31 @@
   },
   "app_hash": "",
   "app_state": {
-    "crisis": {
-      "constant_fee": {
-        "denom": "uftm",
-        "amount": "1000000000"
-      }
-    },
-    "supply": {
-      "supply": []
-    },
-    "liquidityprovider": {
-      "accounts": null
-    },
-    "liquidator": {
+    "slashing": {
       "params": {
-        "DebtAuctionSize": "1000000000",
-        "CollateralParams": [
-          {
-            "Denom": "ubtc",
-            "AuctionSize": "1000"
-          },
-          {
-            "Denom": "ubnb",
-            "AuctionSize": "100000"
-          },
-          {
-            "Denom": "ueth",
-            "AuctionSize": "10000"
-          },
-          {
-            "Denom": "uftm",
-            "AuctionSize": "10000000000"
-          }
-        ]
-      }
-    },
-    "csdt": {
-      "params": {
-        "GlobalDebtLimit": "25000000000000",
-        "CollateralParams": [
-          {
-            "Denom": "ubtc",
-            "LiquidationRatio": "1.500000000000000000",
-            "DebtLimit": "500000000000"
-          },
-          {
-            "Denom": "ubnb",
-            "LiquidationRatio": "1.500000000000000000",
-            "DebtLimit": "500000000000"
-          },
-          {
-            "Denom": "ueth",
-            "LiquidationRatio": "1.500000000000000000",
-            "DebtLimit": "500000000000"
-          },
-          {
-            "Denom": "uftm",
-            "LiquidationRatio": "1.500000000000000000",
-            "DebtLimit": "500000000000"
-          },
-          {
-            "Denom": "uzar",
-            "LiquidationRatio": "1.300000000000000000",
-            "DebtLimit": "500000000000"
-          }
-        ]
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
       },
-      "global_debt": "130000000000"
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.040000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "stake",
+        "inflation_rate_change": "0.020000000000000000",
+        "inflation_max": "0.100000000000000000",
+        "inflation_min": "0.020000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "126489600"
+      }
     },
     "distribution": {
       "fee_pool": {
@@ -102,50 +60,6 @@
       "validator_current_rewards": [],
       "delegator_starting_infos": [],
       "validator_slash_events": []
-    },
-    "gov": {
-      "starting_proposal_id": "1",
-      "deposits": null,
-      "votes": null,
-      "proposals": null,
-      "deposit_params": {
-        "min_deposit": [
-          {
-            "denom": "uftm",
-            "amount": "1000000000000"
-          }
-        ],
-        "max_deposit_period": "172800000000000"
-      },
-      "voting_params": {
-        "voting_period": "172800000000000"
-      },
-      "tally_params": {
-        "quorum": "0.334000000000000000",
-        "threshold": "0.500000000000000000",
-        "veto": "0.334000000000000000"
-      }
-    },
-    "oracle": {
-      "assets": [
-        {
-          "asset_code": "ubtc",
-          "description": "uBitcoin"
-        },
-        {
-          "asset_code": "ubnb",
-          "description": "uBinance Chain Coin"
-        },
-        {
-          "asset_code": "ueth",
-          "description": "uEthereum"
-        },
-        {
-          "asset_code": "uftm",
-          "description": "uFantom"
-        }
-      ],
-      "oracles": []
     },
     "issue": {
       "starting_issue_id": "100000000000",
@@ -185,48 +99,6 @@
         }
       }
     },
-    "nft": {
-      "owners": [],
-      "collections": {}
-    },
-    "slashing": {
-      "params": {
-        "max_evidence_age": "120000000000",
-        "signed_blocks_window": "100",
-        "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600000000000",
-        "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
-      },
-      "signing_infos": {},
-      "missed_blocks": {}
-    },
-    "auction": {},
-    "evidence": {
-      "evidence": []
-    },
-    "params": null,
-    "mint": {
-      "minter": {
-        "inflation": "0.040000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "stake",
-        "inflation_rate_change": "0.020000000000000000",
-        "inflation_max": "0.100000000000000000",
-        "inflation_min": "0.020000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "126489600"
-      }
-    },
-    "bank": {
-      "send_enabled": true
-    },
-    "record": {
-      "starting_record_id": "100000000000",
-      "records": null
-    },
     "staking": {
       "params": {
         "unbonding_time": "1814400000000000",
@@ -242,33 +114,31 @@
       "redelegations": null,
       "exported": false
     },
-    "genutil": {
-      "gentxs": null
+    "liquidityprovider": {
+      "accounts": null
     },
-    "issuer": {
-      "issuers": null
-    },
-    "interest": {
-      "assets": {
-        "last_applied": "2019-11-15T11:20:58.4872688Z",
-        "last_applied_height": "0",
-        "assets": []
-      }
-    },
-    "swap": {
-      "coin_denom": "uftm",
-      "Pools": [
-        {
-          "balance_coin": {
-            "denom": "uftm",
-            "amount": "76"
+    "liquidator": {
+      "params": {
+        "DebtAuctionSize": "1000000000",
+        "CollateralParams": [
+          {
+            "Denom": "ubtc",
+            "AuctionSize": "1000"
           },
-          "balance_token": {
-            "denom": "ucsdt",
-            "amount": "1"
+          {
+            "Denom": "ubnb",
+            "AuctionSize": "100000"
+          },
+          {
+            "Denom": "ueth",
+            "AuctionSize": "10000"
+          },
+          {
+            "Denom": "uftm",
+            "AuctionSize": "10000000000"
           }
-        }
-      ]
+        ]
+      }
     },
     "auth": {
       "params": {
@@ -300,8 +170,185 @@
         }
       ]
     },
+    "params": null,
+    "issuer": {
+      "issuers": null
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "nft": {
+      "owners": [],
+      "collections": {}
+    },
+    "swap": {
+      "coin_denom": "uftm",
+      "Pools": [
+        {
+          "balance_coin": {
+            "denom": "uftm",
+            "amount": "76"
+          },
+          "balance_token": {
+            "denom": "ucsdt",
+            "amount": "1"
+          }
+        }
+      ]
+    },
+    "record": {
+      "starting_record_id": "100000000000",
+      "records": null
+    },
+    "supply": {
+      "supply": []
+    },
+    "interest": {
+      "assets": {
+        "last_applied": "2019-11-15T11:20:58.4872688Z",
+        "last_applied_height": "0",
+        "assets": []
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "uftm",
+        "amount": "1000000000"
+      }
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "uftm",
+            "amount": "1000000000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "evidence": {
+      "evidence": []
+    },
     "authority": {
       "authority_key": "xar1n3e4ujsgs8uuc6ew6qzn0nu8jzsg6y3vmcg7pt"
+    },
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "xarone",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "xar1rprq4e49ym2k5395ztyahen7wn9xm7duu8l38l",
+                  "validator_address": "xva1rprq4e49ym2k5395ztyahen7wn9xm7duq35hz3",
+                  "pubkey": "xcap1zcjduepqm2ywrc4cl0edaq4qj6f07kwn998v8mf024zdvcza04kec0swrh0sk93lp7",
+                  "value": {
+                    "denom": "ucsdt",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AmbFt1u87HZxDhC8/Lq9T6GxtFzpaAJq0t0P+U3D13Mo"
+                },
+                "signature": "lyI68RBMT9VaMT2lt50a5NHxBNeVqpexErObBdipTBpsyHtCo61nFd6ARNcVQXjy3e3mjBzdkcG4NmD3xxdCbw=="
+              }
+            ],
+            "memo": "03235ea3ffa01206ab140cc80becf165b7f1cfa2@172.31.9.228:26656"
+          }
+        }
+      ]
+    },
+    "csdt": {
+      "params": {
+        "GlobalDebtLimit": "25000000000000",
+        "CollateralParams": [
+          {
+            "Denom": "ubtc",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000000000"
+          },
+          {
+            "Denom": "ubnb",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000000000"
+          },
+          {
+            "Denom": "ueth",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000000000"
+          },
+          {
+            "Denom": "uftm",
+            "LiquidationRatio": "1.500000000000000000",
+            "DebtLimit": "500000000000"
+          },
+          {
+            "Denom": "uzar",
+            "LiquidationRatio": "1.300000000000000000",
+            "DebtLimit": "500000000000"
+          }
+        ]
+      },
+      "global_debt": "130000000000"
+    },
+    "auction": {},
+    "oracle": {
+      "assets": [
+        {
+          "asset_code": "ubtc",
+          "description": "uBitcoin"
+        },
+        {
+          "asset_code": "ubnb",
+          "description": "uBinance Chain Coin"
+        },
+        {
+          "asset_code": "ueth",
+          "description": "uEthereum"
+        },
+        {
+          "asset_code": "uftm",
+          "description": "uFantom"
+        }
+      ],
+      "oracles": []
     }
   }
 }

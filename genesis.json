@@ -174,7 +174,65 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": []
+      "accounts": [
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "xar1p9u8mm0q6tl5z39ce8335qd6v27kp9gdpvzyfn",
+            "coins": [
+              {
+                "denom": "ucsdt",
+                "amount": "30000000000"
+              },
+              {
+                "denom": "uftm",
+                "amount": "10000000000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "xar13jntd4j7ww0zzr54u8x0harpul499m4gux2z29",
+            "coins": [
+              {
+                "denom": "ucsdt",
+                "amount": "30000000000"
+              },
+              {
+                "denom": "uftm",
+                "amount": "10000000000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "xar1yxd5lulpylvnzq3mkxs4jgpre3zp3eym2ptpcw",
+            "coins": [
+              {
+                "denom": "ucsdt",
+                "amount": "30000000000"
+              },
+              {
+                "denom": "uftm",
+                "amount": "10000000000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        }
+      ]
     },
     "distribution": {
       "fee_pool": {

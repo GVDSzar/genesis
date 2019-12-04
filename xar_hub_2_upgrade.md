@@ -1,6 +1,6 @@
 # Xar Hub 2 Upgrade
 
-## Upgrade Procedure for non validators
+## Upgrade Procedure for Non Validators
 
 Non validators can simply stop their node, upgrade their `xard` to the branch _hub_2_invariants_, rebuild the client, and then wait for the updated genesis_hub_2.json to be released after block height **750,000**
 
@@ -32,7 +32,7 @@ go: go version go1.13.3 linux/amd64
 ```
 
 
-## Upgrade Procedure for validators (simple)
+## Upgrade Procedure for Validators (simple)
 
 **NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade-procedure-for-non-validators)
 
@@ -79,7 +79,7 @@ xard start
 
 The genesis start time will be set to **60 minutes** after height **750,000**
 
-## Upgrade Procedure for validators (manual)
+## Upgrade Procedure for Validators (manual)
 
 **NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade-procedure-for-non-validators)
 

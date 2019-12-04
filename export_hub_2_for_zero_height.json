@@ -1,0 +1,540 @@
+{
+	"app_hash": "",
+	"app_state": {
+		"auction": {
+			"auction_params": {
+				"max_auction_duration": "172800",
+				"max_bid_duration": "10800",
+				"starting_auction_id": "1"
+			},
+			"genesis_auctions": null
+		},
+		"auth": {
+			"accounts": [{
+				"type": "cosmos-sdk/ModuleAccount",
+				"value": {
+					"account_number": 10,
+					"address": "xar1p2p4r0tts8hyh7ffje9knyfh5kvjqms7p8xnz5",
+					"coins": [],
+					"name": "denominations",
+					"permissions": ["minter", "burner"],
+					"public_key": "",
+					"sequence": 0
+				}
+			}, {
+				"type": "cosmos-sdk/Account",
+				"value": {
+					"account_number": 9,
+					"address": "xar1r68t9xq82plt0jarpuqdvdkx97gu9rchg8eat4",
+					"coins": [{
+						"amount": "1000000",
+						"denom": "uftm"
+					}],
+					"public_key": "xarp1addwnpepqw5kpch9jf7ucxh8zpa3ayw25x4ku528jjxx0ngekcwt7u06ax9j6t5mksc",
+					"sequence": 2
+				}
+			}, {
+				"type": "cosmos-sdk/Account",
+				"value": {
+					"account_number": 3,
+					"address": "xar1ye5yutzp4c7hnnlyfu424r08l6dg9fp97g86eh",
+					"coins": [{
+						"amount": "9000274308",
+						"denom": "ucsdt"
+					}, {
+						"amount": "9999994500000",
+						"denom": "uftm"
+					}],
+					"public_key": "xarp1addwnpepqdd0xgnlunqq8lavewe87dk8mrfw3jlsm658f3e6x32a50m692cuqv0ppcd",
+					"sequence": 12
+				}
+			}, {
+				"type": "cosmos-sdk/ModuleAccount",
+				"value": {
+					"account_number": 1,
+					"address": "xar1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3g0zkrp",
+					"coins": [{
+						"amount": "1000000000",
+						"denom": "ucsdt"
+					}],
+					"name": "bonded_tokens_pool",
+					"permissions": ["burner", "staking"],
+					"public_key": "",
+					"sequence": 0
+				}
+			}, {
+				"type": "cosmos-sdk/ModuleAccount",
+				"value": {
+					"account_number": 2,
+					"address": "xar1tygms3xhhs3yv487phx3dw4a95jn7t7lu07844",
+					"coins": [],
+					"name": "not_bonded_tokens_pool",
+					"permissions": ["burner", "staking"],
+					"public_key": "",
+					"sequence": 0
+				}
+			}, {
+				"type": "cosmos-sdk/Account",
+				"value": {
+					"account_number": 7,
+					"address": "xar1thhv2ppuz3y8l9scrl8uls35edl3j9q8lunc4e",
+					"coins": [{
+						"amount": "2000000",
+						"denom": "uftm"
+					}],
+					"public_key": "xarp1addwnpepqgqatqy34xc42ex6rgcnp4rmn5nlscyuw3xycn535y8lmqaxtjmtk5w9jpg",
+					"sequence": 1
+				}
+			}, {
+				"type": "cosmos-sdk/ModuleAccount",
+				"value": {
+					"account_number": 4,
+					"address": "xar10d07y265gmmuvt4z0w9aw880jnsr700j8kcuv9",
+					"coins": [],
+					"name": "gov",
+					"permissions": ["burner"],
+					"public_key": "",
+					"sequence": 0
+				}
+			}, {
+				"type": "cosmos-sdk/ModuleAccount",
+				"value": {
+					"account_number": 11,
+					"address": "xar1sm622fgkscuhp3w3hkl94hrn7ldkqyu99wkdyq",
+					"coins": [{
+						"amount": "500000",
+						"denom": "uftm"
+					}],
+					"name": "csdt",
+					"permissions": ["minter", "burner"],
+					"public_key": "",
+					"sequence": 0
+				}
+			}, {
+				"type": "denominations/FreezeAccount",
+				"value": {
+					"account_number": 8,
+					"address": "xar13pe5ruhefjwrpgcaau2z49an2euexs7d8x9kqv",
+					"coins": [{
+						"amount": "4000000",
+						"denom": "uftm"
+					}],
+					"frozen_coins": [],
+					"public_key": "",
+					"sequence": 5
+				}
+			}, {
+				"type": "cosmos-sdk/ModuleAccount",
+				"value": {
+					"account_number": 0,
+					"address": "xar1jv65s3grqf6v6jl3dp4t6c9t9rk99cd86t09nf",
+					"coins": [{
+						"amount": "497",
+						"denom": "ucsdt"
+					}],
+					"name": "distribution",
+					"permissions": null,
+					"public_key": "",
+					"sequence": 0
+				}
+			}, {
+				"type": "cosmos-sdk/ModuleAccount",
+				"value": {
+					"account_number": 5,
+					"address": "xar1m3h30wlvsf8llruxtpukdvsy0km2kum849vpak",
+					"coins": [],
+					"name": "mint",
+					"permissions": ["minter"],
+					"public_key": "",
+					"sequence": 0
+				}
+			}, {
+				"type": "cosmos-sdk/ModuleAccount",
+				"value": {
+					"account_number": 6,
+					"address": "xar17xpfvakm2amg962yls6f84z3kell8c5lddge3t",
+					"coins": [],
+					"name": "fee_collector",
+					"permissions": null,
+					"public_key": "",
+					"sequence": 0
+				}
+			}],
+			"params": {
+				"max_memo_characters": "256",
+				"sig_verify_cost_ed25519": "590",
+				"sig_verify_cost_secp256k1": "1000",
+				"tx_sig_limit": "7",
+				"tx_size_cost_per_byte": "10"
+			}
+		},
+		"bank": {
+			"send_enabled": true
+		},
+		"crisis": {
+			"constant_fee": {
+				"amount": "1000",
+				"denom": "uftm"
+			}
+		},
+		"csdt": {
+			"csdts": [{
+				"accumulated_fees": [],
+				"collateral_amount": [{
+					"amount": "500000",
+					"denom": "uftm"
+				}],
+				"collateral_denom": "uftm",
+				"debt": [{
+					"amount": "250000",
+					"denom": "ucsdt"
+				}],
+				"fees_updated": "0001-01-01T00:00:00Z",
+				"owner": "xar1ye5yutzp4c7hnnlyfu424r08l6dg9fp97g86eh"
+			}],
+			"global_debt": "250000",
+			"params": {
+				"circuit_breaker": false,
+				"collateral_params": [{
+					"debt_limit": [{
+						"amount": "500000000000",
+						"denom": "ucsdt"
+					}],
+					"denom": "ubtc",
+					"liquidation_ratio": "1.500000000000000000"
+				}, {
+					"debt_limit": [{
+						"amount": "500000000000",
+						"denom": "ucsdt"
+					}],
+					"denom": "ubnb",
+					"liquidation_ratio": "1.500000000000000000"
+				}, {
+					"debt_limit": [{
+						"amount": "500000000000",
+						"denom": "ucsdt"
+					}],
+					"denom": "ueth",
+					"liquidation_ratio": "1.500000000000000000"
+				}, {
+					"debt_limit": [{
+						"amount": "500000000000",
+						"denom": "ucsdt"
+					}],
+					"denom": "uftm",
+					"liquidation_ratio": "1.500000000000000000"
+				}, {
+					"debt_limit": [{
+						"amount": "500000000000",
+						"denom": "ucsdt"
+					}],
+					"denom": "uzar",
+					"liquidation_ratio": "1.300000000000000000"
+				}],
+				"debt_params": null,
+				"global_debt_limit": [{
+					"amount": "25000000000000",
+					"denom": "ucsdt"
+				}],
+				"nominees": null
+			}
+		},
+		"denominations": {
+			"nominees": ["xar1r68t9xq82plt0jarpuqdvdkx97gu9rchg8eat4"],
+			"token_records": [{
+				"max_supply": "3175000000000000",
+				"mintable": true,
+				"name": "Fantom",
+				"original_symbol": "FTM",
+				"owner": "xar13pe5ruhefjwrpgcaau2z49an2euexs7d8x9kqv",
+				"symbol": "uftm",
+				"total_supply": [{
+					"amount": "2000000",
+					"denom": "uftm"
+				}]
+			}]
+		},
+		"distribution": {
+			"base_proposer_reward": "0.010000000000000000",
+			"bonus_proposer_reward": "0.040000000000000000",
+			"community_tax": "0.020000000000000000",
+			"delegator_starting_infos": [{
+				"delegator_address": "xar1ye5yutzp4c7hnnlyfu424r08l6dg9fp97g86eh",
+				"starting_info": {
+					"creation_height": "0",
+					"previous_period": "1",
+					"stake": "1000000000.000000000000000000"
+				},
+				"validator_address": "xva1ye5yutzp4c7hnnlyfu424r08l6dg9fp9z7vuue"
+			}],
+			"delegator_withdraw_infos": [],
+			"fee_pool": {
+				"community_pool": [{
+					"amount": "497.000000000000000000",
+					"denom": "ucsdt"
+				}]
+			},
+			"outstanding_rewards": [{
+				"outstanding_rewards": null,
+				"validator_address": "xva1ye5yutzp4c7hnnlyfu424r08l6dg9fp9z7vuue"
+			}],
+			"previous_proposer": "xca1jxqn4s207lc4ketvkajahxlnu3lh64dtw5pysz",
+			"validator_accumulated_commissions": [{
+				"accumulated": null,
+				"validator_address": "xva1ye5yutzp4c7hnnlyfu424r08l6dg9fp9z7vuue"
+			}],
+			"validator_current_rewards": [{
+				"rewards": {
+					"period": "2",
+					"rewards": null
+				},
+				"validator_address": "xva1ye5yutzp4c7hnnlyfu424r08l6dg9fp9z7vuue"
+			}],
+			"validator_historical_rewards": [{
+				"period": "1",
+				"rewards": {
+					"cumulative_reward_ratio": null,
+					"reference_count": 2
+				},
+				"validator_address": "xva1ye5yutzp4c7hnnlyfu424r08l6dg9fp9z7vuue"
+			}],
+			"validator_slash_events": [],
+			"withdraw_addr_enabled": true
+		},
+		"evidence": {
+			"evidence": null
+		},
+		"genutil": null,
+		"gov": {
+			"deposit_params": {
+				"max_deposit_period": "172800000000000",
+				"min_deposit": [{
+					"amount": "10000000",
+					"denom": "uftm"
+				}]
+			},
+			"deposits": null,
+			"proposals": null,
+			"starting_proposal_id": "1",
+			"tally_params": {
+				"quorum": "0.334000000000000000",
+				"threshold": "0.500000000000000000",
+				"veto": "0.334000000000000000"
+			},
+			"votes": null,
+			"voting_params": {
+				"voting_period": "172800000000000"
+			}
+		},
+		"issue": {
+			"issues": [],
+			"params": {
+				"burn_fee": {
+					"amount": "0",
+					"denom": "uftm"
+				},
+				"burn_from_fee": {
+					"amount": "0",
+					"denom": "uftm"
+				},
+				"describe_fee": {
+					"amount": "400000000000",
+					"denom": "uftm"
+				},
+				"freeze_fee": {
+					"amount": "0",
+					"denom": "uftm"
+				},
+				"issue_fee": {
+					"amount": "10000000000000",
+					"denom": "uftm"
+				},
+				"mint_fee": {
+					"amount": "0",
+					"denom": "uftm"
+				},
+				"transfer_owner_fee": {
+					"amount": "10000000000000",
+					"denom": "uftm"
+				},
+				"unfreeze_fee": {
+					"amount": "0",
+					"denom": "uftm"
+				}
+			},
+			"starting_issue_id": "100000000000"
+		},
+		"liquidator": {
+			"liquidator_params": {
+				"CollateralParams": null,
+				"DebtAuctionSize": "1000"
+			}
+		},
+		"market": {
+			"markets": [{
+				"BaseAssetDenom": "uftm",
+				"ID": "1",
+				"QuoteAssetDenom": "uzar"
+			}, {
+				"BaseAssetDenom": "ueur",
+				"ID": "2",
+				"QuoteAssetDenom": "uzar"
+			}, {
+				"BaseAssetDenom": "uusd",
+				"ID": "3",
+				"QuoteAssetDenom": "uzar"
+			}, {
+				"BaseAssetDenom": "ubtc",
+				"ID": "4",
+				"QuoteAssetDenom": "uzar"
+			}],
+			"nominees": null
+		},
+		"mint": {
+			"minter": {
+				"annual_provisions": "1300056901.533897912717055600",
+				"inflation": "0.130002120295166486"
+			},
+			"params": {
+				"blocks_per_year": "6311520",
+				"goal_bonded": "0.670000000000000000",
+				"inflation_max": "0.200000000000000000",
+				"inflation_min": "0.070000000000000000",
+				"inflation_rate_change": "0.130000000000000000",
+				"mint_denom": "ucsdt"
+			}
+		},
+		"nft": {
+			"collections": {},
+			"owners": null
+		},
+		"oracle": {
+			"asset_params": {
+				"assets": [{
+					"active": true,
+					"asset_code": "uftm",
+					"base_asset": "uftm",
+					"oracles": [{
+						"address": "xar1thhv2ppuz3y8l9scrl8uls35edl3j9q8lunc4e"
+					}],
+					"quote_asset": "ucsdt"
+				}],
+				"nominees": ["xar1r68t9xq82plt0jarpuqdvdkx97gu9rchg8eat4"]
+			},
+			"posted_prices": [{
+				"asset_code": "uftm",
+				"expiry": "2019-12-04T08:52:37Z",
+				"oracle_address": "xar1thhv2ppuz3y8l9scrl8uls35edl3j9q8lunc4e",
+				"price": "1.000000000000000000"
+			}]
+		},
+		"order": {},
+		"record": {
+			"records": [],
+			"starting_record_id": "0"
+		},
+		"slashing": {
+			"missed_blocks": {
+				"xca1jxqn4s207lc4ketvkajahxlnu3lh64dtw5pysz": []
+			},
+			"params": {
+				"downtime_jail_duration": "600000000000",
+				"max_evidence_age": "120000000000",
+				"min_signed_per_window": "0.500000000000000000",
+				"signed_blocks_window": "100",
+				"slash_fraction_double_sign": "0.050000000000000000",
+				"slash_fraction_downtime": "0.010000000000000000"
+			},
+			"signing_infos": {
+				"xca1jxqn4s207lc4ketvkajahxlnu3lh64dtw5pysz": {
+					"address": "xca1jxqn4s207lc4ketvkajahxlnu3lh64dtw5pysz",
+					"index_offset": "120",
+					"jailed_until": "1970-01-01T00:00:00Z",
+					"missed_blocks_counter": "0",
+					"start_height": "0",
+					"tombstoned": false
+				}
+			}
+		},
+		"staking": {
+			"delegations": [{
+				"delegator_address": "xar1ye5yutzp4c7hnnlyfu424r08l6dg9fp97g86eh",
+				"shares": "1000000000.000000000000000000",
+				"validator_address": "xva1ye5yutzp4c7hnnlyfu424r08l6dg9fp9z7vuue"
+			}],
+			"exported": true,
+			"last_total_power": "1000",
+			"last_validator_powers": [{
+				"Address": "xva1ye5yutzp4c7hnnlyfu424r08l6dg9fp9z7vuue",
+				"Power": "1000"
+			}],
+			"params": {
+				"bond_denom": "ucsdt",
+				"max_entries": 7,
+				"max_validators": 100,
+				"unbonding_time": "1814400000000000"
+			},
+			"redelegations": null,
+			"unbonding_delegations": null,
+			"validators": [{
+				"commission": {
+					"commission_rates": {
+						"max_change_rate": "0.010000000000000000",
+						"max_rate": "0.200000000000000000",
+						"rate": "0.100000000000000000"
+					},
+					"update_time": "2019-12-03T05:22:13.728366064Z"
+				},
+				"consensus_pubkey": "xcap1zcjduepqz6eqtzkrcams20q9nuz85mnjtgpacv4sr7xngnns2f2z2mtuluksd7w38k",
+				"delegator_shares": "1000000000.000000000000000000",
+				"description": {
+					"details": "",
+					"identity": "",
+					"moniker": "xar-hub-2",
+					"security_contact": "",
+					"website": ""
+				},
+				"jailed": false,
+				"min_self_delegation": "1",
+				"operator_address": "xva1ye5yutzp4c7hnnlyfu424r08l6dg9fp9z7vuue",
+				"status": 2,
+				"tokens": "1000000000",
+				"unbonding_height": "0",
+				"unbonding_time": "1970-01-01T00:00:00Z"
+			}]
+		},
+		"supply": {
+			"supply": [{
+				"amount": "10000274805",
+				"denom": "ucsdt"
+			}, {
+				"amount": "10000002000000",
+				"denom": "uftm"
+			}]
+		}
+	},
+	"chain_id": "xar-network-hub_2",
+	"consensus_params": {
+		"block": {
+			"max_bytes": "22020096",
+			"max_gas": "-1",
+			"time_iota_ms": "1000"
+		},
+		"evidence": {
+			"max_age": "100000"
+		},
+		"validator": {
+			"pub_key_types": ["ed25519"]
+		}
+	},
+	"genesis_time": "2019-12-03T05:22:13.728366064Z",
+	"validators": [{
+		"address": "",
+		"name": "xar-hub-2",
+		"power": "1000",
+		"pub_key": {
+			"type": "tendermint/PubKeyEd25519",
+			"value": "FrIFisPHdwU8BZ8Eem5yWgPcMrAfjTROcFJUJW18/y0="
+		}
+	}]
+}

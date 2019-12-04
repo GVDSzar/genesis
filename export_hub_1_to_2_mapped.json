@@ -5,9 +5,8 @@
       "auction_params": {
         "max_auction_duration": "34560",
         "max_bid_duration": "2160",
-        "starting_auction_id": "0"
-      },
-      "genesis_auctions": null
+        "starting_auction_id": "1"
+      }
     },
     "auth": {
       "accounts": [
@@ -992,7 +991,7 @@
       "posted_prices": [
         {
           "asset_code": "uftm",
-          "expiry": "2019-12-12T03:44:28Z",
+          "expiry": "2019-12-12T03:51:40Z",
           "oracle_address": "xar1hkc7l5jmsmrmsmsre7qsatrx5wjgan942c77ac",
           "price": "0.011601623391100000"
         }

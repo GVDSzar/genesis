@@ -18,7 +18,7 @@ fs.readFile(filename, 'utf8', function(err, data) {
   var output = {
     app_hash: input.app_hash,
     app_state: {
-      auction: input.app_state.auction,
+      auction: migrate_auction(input.app_state.auction),
       auth: migrate_accounts(input.app_state.auth),
       bank: input.app_state.bank,
       crisis: input.app_state.crisis,
@@ -54,6 +54,18 @@ fs.readFile(filename, 'utf8', function(err, data) {
   });
 });
 
+function migrate_auction(auction) {
+  if (auction.auction_params.starting_auction_id == "0") {
+    auction.auction_params.starting_auction_id = "1"
+  }
+  return {
+    auction_params: {
+      max_auction_duration: auction.auction_params.max_auction_duration,
+      max_bid_duration: auction.auction_params.max_bid_duration,
+      starting_auction_id: auction.auction_params.starting_auction_id
+    }
+  }
+}
 function migrate_accounts(input) {
   return {
     accounts: input.accounts.map(format_account),

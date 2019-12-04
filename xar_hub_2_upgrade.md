@@ -34,7 +34,7 @@ go: go version go1.13.3 linux/amd64
 
 ## Upgrade Procedure for validators (simple)
 
-**NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade_procedure_for_non_validators)
+**NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade-procedure-for-validators-simple)
 
 The upgrade height will be set to: **750,000**
 
@@ -81,7 +81,7 @@ The genesis start time will be set to 60 minutes after height **750,000**
 
 ## Upgrade Procedure for validators (manual)
 
-**NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade_procedure_for_non_validators)
+**NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade-procedure-for-validators-simple)
 
 The upgrade height will be set to: **750,000**
 

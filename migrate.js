@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-const filename = "genesis_hub_1_export.json"
+const filename = "export_hub_1_at_725330_for_zero_height.json"
 var nominee = ""
 var ucsdt = 0
 var uftm = 0
@@ -45,11 +45,11 @@ fs.readFile(filename, 'utf8', function(err, data) {
     genesis_time: migrate_genesis_time(input.genesis_time),
     validators: input.validators
   }
-  fs.writeFile('genesis_hub_2_export.json', JSON.stringify(output, null, 2), function(err) {
+  fs.writeFile('export_hub_2_at_725330_for_zero_height.json', JSON.stringify(output, null, 2), function(err) {
     if(err) {
       console.log(err);
     } else {
-      console.log("JSON saved to genesis_hub_2_export.json");
+      console.log("JSON saved to export_hub_2_at_725330_for_zero_height.json");
     }
   });
 });
@@ -63,7 +63,8 @@ function migrate_auction(auction) {
       max_auction_duration: auction.auction_params.max_auction_duration,
       max_bid_duration: auction.auction_params.max_bid_duration,
       starting_auction_id: auction.auction_params.starting_auction_id
-    }
+    },
+    genesis_auctions: null
   }
 }
 function migrate_accounts(input) {
@@ -130,7 +131,7 @@ function format_collateral_param(collateral_param) {
   return {
     debt_limit: [{
       amount: collateral_param.DebtLimit,
-      denom: collateral_param.Denom
+      denom: "ucsdt"
     }],
     denom: collateral_param.Denom,
     liquidation_ratio: collateral_param.LiquidationRatio

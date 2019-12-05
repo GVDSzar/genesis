@@ -1,8 +1,8 @@
 # Xar Hub 2 Upgrade
 
-## Upgrade Procedure for non validators
+## Upgrade Procedure for Non Validators
 
-Non validators can simply stop their node, upgrade their xard to the branch hub_2_invariants, rebuild the client, and then wait for the updated genesis_hub_2.json to be released after block height **750,000**
+Non validators can simply stop their node, upgrade their `xard` to the branch [hub_2_invariants](https://github.com/xar-network/xar-network/tree/hub_2_invariants), rebuild the client, and then wait for the updated genesis_hub_2_export.json to be released after block height **750,000**
 
 ```
 xard stop
@@ -11,7 +11,7 @@ make install
 xard unsafe-reset-all
 ```
 
-After the new genesis file has been made available after height **750,000** you can download the new genesis_hub_2 and restart
+After the new genesis file has been made available after height **750,000** you can download the new genesis_hub_2_export.json and restart
 
 ```
 curl https://raw.githubusercontent.com/xar-network/genesis/master/genesis_hub_2.json > $HOME/.xard/config/genesis.json
@@ -32,21 +32,21 @@ go: go version go1.13.3 linux/amd64
 ```
 
 
-## Upgrade Procedure for validators (simple)
+## Upgrade Procedure for Validators (simple)
 
-**NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade-procedure-for-validators-simple)
+**NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade-procedure-for-non-validators)
 
 The upgrade height will be set to: **750,000**
 
 Validators need to stop their node at height **750,000** this can either be achieved manually, or by using the `--halt-height` flag.
 
-Stop xard, then restart with;
+Stop `xard`, then restart with;
 
 ```
 xard start --halt-height=750000
 ```
 
-After the node has stopped you can download the updated height **750,000** genesis_hub_2.json via the genesis repo (will be made available after height **750,000**)
+After the node has stopped you can download the updated height **750,000** genesis_hub_2_export.json via the genesis repo (will be made available after height **750,000**)
 
 During this time, rebuild your client and prepare for the restart
 
@@ -70,30 +70,30 @@ build_tags: netgo,ledger
 go: go version go1.13.3 linux/amd64
 ```
 
-When the genesis_hub_2.json has been made available (this will be shared in the validator telegram channel), simply download the genesis_hub_2.json and restart
+When the genesis_hub_2_export.json has been made available (this will be shared in the validator telegram channel), simply download the genesis_hub_2_export.json and restart
 
 ```
 curl https://raw.githubusercontent.com/xar-network/genesis/master/genesis_hub_2.json > $HOME/.xard/config/genesis.json
 xard start
 ```
 
-The genesis start time will be set to 60 minutes after height **750,000**
+**NOTE**: The genesis start time will be set to **60 minutes** after height **750,000**
 
-## Upgrade Procedure for validators (manual)
+## Upgrade Procedure for Validators (manual)
 
-**NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade-procedure-for-validators-simple)
+**NOTE**: This assumes you have read [Upgrade Procedure for non validators](#upgrade-procedure-for-non-validators)
 
 The upgrade height will be set to: **750,000**
 
 Validators need to stop their node at height **750,000** this can either be achieved manually, or by using the `--halt-height` flag.
 
-Stop xard, then restart with;
+Stop `xard`, then restart with;
 
 ```
 xard start --halt-height=750000
 ```
 
-After height **750,000** has been reached, you need to generate the new genesis_hub_2.json, this is achieved by using the exporter branch
+After height **750,000** has been reached, you need to generate the new genesis_hub_2.json, this is achieved by using the [exporter](https://github.com/xar-network/xar-network/tree/exporter) branch
 
 ```
 xard stop
@@ -116,7 +116,7 @@ Running migrate.js will create genesis_hub_2_export.json, copy this over to your
 mv genesis_hub_2_export.json $HOME/.xard/config/genesis.json
 ```
 
-With genesis_hub_2.json in place, we need to rebuild to the hub_2_invariants branch and restart
+With genesis_hub_2_export.json in place, we need to rebuild to the [hub_2_invariants](https://github.com/xar-network/xar-network/tree/hub_2_invariants) branch and restart
 
 ```
 git checkout remotes/origin/hub_2_invariants
@@ -143,4 +143,4 @@ Simply start up your node
 xard start
 ```
 
-The genesis start time will be set to **60 minutes** after height **750,000**
+**NOTE**: The genesis start time will be set to **60 minutes** after height **750,000**

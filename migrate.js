@@ -31,7 +31,7 @@ fs.readFile(filename, 'utf8', function(err, data) {
       issue: input.app_state.issue,
       liquidator: migrate_liquidator(input.app_state.liquidator),
       market: migrate_market(input.app_state.market),
-      mint: input.app_state.mint,
+      mint: migrate_mint(input.app_state.mint),
       nft: input.app_state.nft,
       oracle: migrate_oracle(input.app_state.oracle),
       order: migrate_order(input.app_state.order),
@@ -54,6 +54,11 @@ fs.readFile(filename, 'utf8', function(err, data) {
   });
 });
 
+function migrate_mint(mint) {
+  mint.params.inflation_max =  "0.300000000000000000"
+  mint.params.inflation_min = "0.060000000000000000"
+  return mint
+}
 function migrate_auction(auction) {
   if (auction.auction_params.starting_auction_id == "0") {
     auction.auction_params.starting_auction_id = "1"

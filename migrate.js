@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-const filename = "export_hub_1_at_725330_for_zero_height.json"
+const filename = "genesis_hub_1_export.json"
 var nominee = ""
 var ucsdt = 0
 var uftm = 0
@@ -45,11 +45,11 @@ fs.readFile(filename, 'utf8', function(err, data) {
     genesis_time: migrate_genesis_time(input.genesis_time),
     validators: input.validators
   }
-  fs.writeFile('export_hub_2_at_725330_for_zero_height.json', JSON.stringify(output, null, 2), function(err) {
+  fs.writeFile('genesis_hub_2_export.json', JSON.stringify(output, null, 2), function(err) {
     if(err) {
       console.log(err);
     } else {
-      console.log("JSON saved to export_hub_2_at_725330_for_zero_height.json");
+      console.log("JSON saved to genesis_hub_2_export.json");
     }
   });
 });

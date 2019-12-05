@@ -18,7 +18,7 @@
             "address": "xar1p9u8mm0q6tl5z39ce8335qd6v27kp9gdpvzyfn",
             "coins": [
               {
-                "amount": "62087557",
+                "amount": "64346298",
                 "denom": "ucsdt"
               },
               {
@@ -52,7 +52,7 @@
             "address": "xar1yxd5lulpylvnzq3mkxs4jgpre3zp3eym2ptpcw",
             "coins": [
               {
-                "amount": "62087550",
+                "amount": "64346272",
                 "denom": "ucsdt"
               },
               {
@@ -86,7 +86,7 @@
             "address": "xar1x3zca7yvrrnycqy4vc895m4t8djud0lrqvtgv2",
             "coins": [
               {
-                "amount": "3805",
+                "amount": "3948",
                 "denom": "ucsdt"
               }
             ],
@@ -230,7 +230,7 @@
             "address": "xar13jntd4j7ww0zzr54u8x0harpul499m4gux2z29",
             "coins": [
               {
-                "amount": "62087580",
+                "amount": "64346302",
                 "denom": "ucsdt"
               },
               {
@@ -279,7 +279,7 @@
             "address": "xar1jv65s3grqf6v6jl3dp4t6c9t9rk99cd86t09nf",
             "coins": [
               {
-                "amount": "5063926",
+                "amount": "5248316",
                 "denom": "ucsdt"
               }
             ],
@@ -296,7 +296,7 @@
             "address": "xar1n4avxelsujq8chr7jh2qgf4gcttuxkxdv40rdj",
             "coins": [
               {
-                "amount": "61865608",
+                "amount": "64124331",
                 "denom": "ucsdt"
               }
             ],
@@ -331,7 +331,7 @@
               }
             ],
             "public_key": "xarp1addwnpepqt2qfwdpszkedahk902mkx8xrq4wd5mqf7xq6tphz0e0gnpgx7mw5m4kv8d",
-            "sequence": 12699
+            "sequence": 13140
           }
         },
         {
@@ -516,7 +516,7 @@
           "owner": "xar1uvlk0rhqw4ua57vvssqjja85l7hcqm6av6xfaz"
         }
       ],
-      "global_debt": "170256299026",
+      "global_debt": "170265518467",
       "params": {
         "circuit_breaker": false,
         "collateral_params": [
@@ -661,7 +661,7 @@
       "fee_pool": {
         "community_pool": [
           {
-            "amount": "5063926.000000000000000000",
+            "amount": "5248316.000000000000000000",
             "denom": "ucsdt"
           }
         ]
@@ -688,7 +688,7 @@
           "validator_address": "xva1n4avxelsujq8chr7jh2qgf4gcttuxkxdsry9gu"
         }
       ],
-      "previous_proposer": "xca1t2je2aun4nj8msedzswnl4ua7e8hwe7vc0y088",
+      "previous_proposer": "xca1jz77qqg8egksv5sjhmsl525uj5f97k2pnlycse",
       "validator_accumulated_commissions": [
         {
           "accumulated": null,
@@ -910,8 +910,8 @@
     },
     "mint": {
       "minter": {
-        "annual_provisions": "11825451208.703269534551311619",
-        "inflation": "0.069456761965704223"
+        "annual_provisions": "11825192607.142087707088611840",
+        "inflation": "0.069451482246767360"
       },
       "params": {
         "blocks_per_year": "31622400",
@@ -992,9 +992,9 @@
       "posted_prices": [
         {
           "asset_code": "uftm",
-          "expiry": "2019-12-14T01:49:49Z",
+          "expiry": "2019-12-14T15:35:41Z",
           "oracle_address": "xar1hkc7l5jmsmrmsmsre7qsatrx5wjgan942c77ac",
-          "price": "0.012370030138200001"
+          "price": "0.012310460393900000"
         }
       ]
     },
@@ -1008,1207 +1008,1207 @@
         "xca14t38plx6wh3j45kfueh8hgqlkcp5lk4zpwujt4": [
           {
             "index": "0",
-            "missed": true
+            "missed": false
           },
           {
             "index": "1",
-            "missed": true
+            "missed": false
           },
           {
             "index": "2",
-            "missed": true
+            "missed": false
           },
           {
             "index": "3",
-            "missed": true
+            "missed": false
           },
           {
             "index": "4",
-            "missed": true
+            "missed": false
           },
           {
             "index": "5",
-            "missed": true
+            "missed": false
           },
           {
             "index": "6",
-            "missed": true
+            "missed": false
           },
           {
             "index": "7",
-            "missed": true
+            "missed": false
           },
           {
             "index": "8",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9",
-            "missed": true
+            "missed": false
           },
           {
             "index": "10",
-            "missed": true
+            "missed": false
           },
           {
             "index": "11",
-            "missed": true
+            "missed": false
           },
           {
             "index": "12",
-            "missed": true
+            "missed": false
           },
           {
             "index": "13",
-            "missed": true
+            "missed": false
           },
           {
             "index": "14",
-            "missed": true
+            "missed": false
           },
           {
             "index": "15",
-            "missed": true
+            "missed": false
           },
           {
             "index": "16",
-            "missed": true
+            "missed": false
           },
           {
             "index": "17",
-            "missed": true
+            "missed": false
           },
           {
             "index": "18",
-            "missed": true
+            "missed": false
           },
           {
             "index": "19",
-            "missed": true
+            "missed": false
           },
           {
             "index": "20",
-            "missed": true
+            "missed": false
           },
           {
             "index": "21",
-            "missed": true
+            "missed": false
           },
           {
             "index": "22",
-            "missed": true
+            "missed": false
           },
           {
             "index": "23",
-            "missed": true
+            "missed": false
           },
           {
             "index": "24",
-            "missed": true
+            "missed": false
           },
           {
             "index": "25",
-            "missed": true
+            "missed": false
           },
           {
             "index": "26",
-            "missed": true
+            "missed": false
           },
           {
             "index": "27",
-            "missed": true
+            "missed": false
           },
           {
             "index": "28",
-            "missed": true
+            "missed": false
           },
           {
             "index": "29",
-            "missed": true
+            "missed": false
           },
           {
             "index": "30",
-            "missed": true
+            "missed": false
           },
           {
             "index": "31",
-            "missed": true
+            "missed": false
           },
           {
             "index": "32",
-            "missed": true
+            "missed": false
           },
           {
             "index": "33",
-            "missed": true
+            "missed": false
           },
           {
             "index": "34",
-            "missed": true
+            "missed": false
           },
           {
             "index": "35",
-            "missed": true
+            "missed": false
           },
           {
             "index": "36",
-            "missed": true
+            "missed": false
           },
           {
             "index": "37",
-            "missed": true
+            "missed": false
           },
           {
             "index": "38",
-            "missed": true
+            "missed": false
           },
           {
             "index": "39",
-            "missed": true
+            "missed": false
           },
           {
             "index": "40",
-            "missed": true
+            "missed": false
           },
           {
             "index": "41",
-            "missed": true
+            "missed": false
           },
           {
             "index": "42",
-            "missed": true
+            "missed": false
           },
           {
             "index": "43",
-            "missed": true
+            "missed": false
           },
           {
             "index": "44",
-            "missed": true
+            "missed": false
           },
           {
             "index": "45",
-            "missed": true
+            "missed": false
           },
           {
             "index": "46",
-            "missed": true
+            "missed": false
           },
           {
             "index": "47",
-            "missed": true
+            "missed": false
           },
           {
             "index": "48",
-            "missed": true
+            "missed": false
           },
           {
             "index": "49",
-            "missed": true
+            "missed": false
           },
           {
             "index": "50",
-            "missed": true
+            "missed": false
           },
           {
             "index": "51",
-            "missed": true
+            "missed": false
           },
           {
             "index": "52",
-            "missed": true
+            "missed": false
           },
           {
             "index": "53",
-            "missed": true
+            "missed": false
           },
           {
             "index": "54",
-            "missed": true
+            "missed": false
           },
           {
             "index": "55",
-            "missed": true
+            "missed": false
           },
           {
             "index": "56",
-            "missed": true
+            "missed": false
           },
           {
             "index": "57",
-            "missed": true
+            "missed": false
           },
           {
             "index": "58",
-            "missed": true
+            "missed": false
           },
           {
             "index": "59",
-            "missed": true
+            "missed": false
           },
           {
             "index": "60",
-            "missed": true
+            "missed": false
           },
           {
             "index": "61",
-            "missed": true
+            "missed": false
           },
           {
             "index": "62",
-            "missed": true
+            "missed": false
           },
           {
             "index": "63",
-            "missed": true
+            "missed": false
           },
           {
             "index": "64",
-            "missed": true
+            "missed": false
           },
           {
             "index": "65",
-            "missed": true
+            "missed": false
           },
           {
             "index": "66",
-            "missed": true
+            "missed": false
           },
           {
             "index": "67",
-            "missed": true
+            "missed": false
           },
           {
             "index": "68",
-            "missed": true
+            "missed": false
           },
           {
             "index": "69",
-            "missed": true
+            "missed": false
           },
           {
             "index": "70",
-            "missed": true
+            "missed": false
           },
           {
             "index": "71",
-            "missed": true
+            "missed": false
           },
           {
             "index": "72",
-            "missed": true
+            "missed": false
           },
           {
             "index": "73",
-            "missed": true
+            "missed": false
           },
           {
             "index": "74",
-            "missed": true
+            "missed": false
           },
           {
             "index": "75",
-            "missed": true
+            "missed": false
           },
           {
             "index": "76",
-            "missed": true
+            "missed": false
           },
           {
             "index": "77",
-            "missed": true
+            "missed": false
           },
           {
             "index": "78",
-            "missed": true
+            "missed": false
           },
           {
             "index": "79",
-            "missed": true
+            "missed": false
           },
           {
             "index": "80",
-            "missed": true
+            "missed": false
           },
           {
             "index": "81",
-            "missed": true
+            "missed": false
           },
           {
             "index": "82",
-            "missed": true
+            "missed": false
           },
           {
             "index": "83",
-            "missed": true
+            "missed": false
           },
           {
             "index": "84",
-            "missed": true
+            "missed": false
           },
           {
             "index": "85",
-            "missed": true
+            "missed": false
           },
           {
             "index": "86",
-            "missed": true
+            "missed": false
           },
           {
             "index": "87",
-            "missed": true
+            "missed": false
           },
           {
             "index": "88",
-            "missed": true
+            "missed": false
           },
           {
             "index": "89",
-            "missed": true
+            "missed": false
           },
           {
             "index": "90",
-            "missed": true
+            "missed": false
           },
           {
             "index": "91",
-            "missed": true
+            "missed": false
           },
           {
             "index": "92",
-            "missed": true
+            "missed": false
           },
           {
             "index": "93",
-            "missed": true
+            "missed": false
           },
           {
             "index": "94",
-            "missed": true
+            "missed": false
           },
           {
             "index": "95",
-            "missed": true
+            "missed": false
           },
           {
             "index": "96",
-            "missed": true
+            "missed": false
           },
           {
             "index": "97",
-            "missed": true
+            "missed": false
           },
           {
             "index": "98",
-            "missed": true
+            "missed": false
           },
           {
             "index": "99",
-            "missed": true
+            "missed": false
           },
           {
             "index": "100",
-            "missed": true
+            "missed": false
           },
           {
             "index": "101",
-            "missed": true
+            "missed": false
           },
           {
             "index": "102",
-            "missed": true
+            "missed": false
           },
           {
             "index": "103",
-            "missed": true
+            "missed": false
           },
           {
             "index": "104",
-            "missed": true
+            "missed": false
           },
           {
             "index": "105",
-            "missed": true
+            "missed": false
           },
           {
             "index": "106",
-            "missed": true
+            "missed": false
           },
           {
             "index": "107",
-            "missed": true
+            "missed": false
           },
           {
             "index": "108",
-            "missed": true
+            "missed": false
           },
           {
             "index": "109",
-            "missed": true
+            "missed": false
           },
           {
             "index": "110",
-            "missed": true
+            "missed": false
           },
           {
             "index": "111",
-            "missed": true
+            "missed": false
           },
           {
             "index": "112",
-            "missed": true
+            "missed": false
           },
           {
             "index": "113",
-            "missed": true
+            "missed": false
           },
           {
             "index": "114",
-            "missed": true
+            "missed": false
           },
           {
             "index": "115",
-            "missed": true
+            "missed": false
           },
           {
             "index": "116",
-            "missed": true
+            "missed": false
           },
           {
             "index": "117",
-            "missed": true
+            "missed": false
           },
           {
             "index": "118",
-            "missed": true
+            "missed": false
           },
           {
             "index": "119",
-            "missed": true
+            "missed": false
           },
           {
             "index": "120",
-            "missed": true
+            "missed": false
           },
           {
             "index": "121",
-            "missed": true
+            "missed": false
           },
           {
             "index": "122",
-            "missed": true
+            "missed": false
           },
           {
             "index": "123",
-            "missed": true
+            "missed": false
           },
           {
             "index": "124",
-            "missed": true
+            "missed": false
           },
           {
             "index": "125",
-            "missed": true
+            "missed": false
           },
           {
             "index": "126",
-            "missed": true
+            "missed": false
           },
           {
             "index": "127",
-            "missed": true
+            "missed": false
           },
           {
             "index": "128",
-            "missed": true
+            "missed": false
           },
           {
             "index": "129",
-            "missed": true
+            "missed": false
           },
           {
             "index": "130",
-            "missed": true
+            "missed": false
           },
           {
             "index": "131",
-            "missed": true
+            "missed": false
           },
           {
             "index": "132",
-            "missed": true
+            "missed": false
           },
           {
             "index": "133",
-            "missed": true
+            "missed": false
           },
           {
             "index": "134",
-            "missed": true
+            "missed": false
           },
           {
             "index": "135",
-            "missed": true
+            "missed": false
           },
           {
             "index": "136",
-            "missed": true
+            "missed": false
           },
           {
             "index": "137",
-            "missed": true
+            "missed": false
           },
           {
             "index": "138",
-            "missed": true
+            "missed": false
           },
           {
             "index": "139",
-            "missed": true
+            "missed": false
           },
           {
             "index": "140",
-            "missed": true
+            "missed": false
           },
           {
             "index": "141",
-            "missed": true
+            "missed": false
           },
           {
             "index": "142",
-            "missed": true
+            "missed": false
           },
           {
             "index": "143",
-            "missed": true
+            "missed": false
           },
           {
             "index": "144",
-            "missed": true
+            "missed": false
           },
           {
             "index": "145",
-            "missed": true
+            "missed": false
           },
           {
             "index": "146",
-            "missed": true
+            "missed": false
           },
           {
             "index": "147",
-            "missed": true
+            "missed": false
           },
           {
             "index": "148",
-            "missed": true
+            "missed": false
           },
           {
             "index": "149",
-            "missed": true
+            "missed": false
           },
           {
             "index": "150",
-            "missed": true
+            "missed": false
           },
           {
             "index": "151",
-            "missed": true
+            "missed": false
           },
           {
             "index": "152",
-            "missed": true
+            "missed": false
           },
           {
             "index": "153",
-            "missed": true
+            "missed": false
           },
           {
             "index": "154",
-            "missed": true
+            "missed": false
           },
           {
             "index": "155",
-            "missed": true
+            "missed": false
           },
           {
             "index": "156",
-            "missed": true
+            "missed": false
           },
           {
             "index": "157",
-            "missed": true
+            "missed": false
           },
           {
             "index": "158",
-            "missed": true
+            "missed": false
           },
           {
             "index": "159",
-            "missed": true
+            "missed": false
           },
           {
             "index": "160",
-            "missed": true
+            "missed": false
           },
           {
             "index": "161",
-            "missed": true
+            "missed": false
           },
           {
             "index": "162",
-            "missed": true
+            "missed": false
           },
           {
             "index": "163",
-            "missed": true
+            "missed": false
           },
           {
             "index": "164",
-            "missed": true
+            "missed": false
           },
           {
             "index": "165",
-            "missed": true
+            "missed": false
           },
           {
             "index": "166",
-            "missed": true
+            "missed": false
           },
           {
             "index": "167",
-            "missed": true
+            "missed": false
           },
           {
             "index": "168",
-            "missed": true
+            "missed": false
           },
           {
             "index": "169",
-            "missed": true
+            "missed": false
           },
           {
             "index": "170",
-            "missed": true
+            "missed": false
           },
           {
             "index": "171",
-            "missed": true
+            "missed": false
           },
           {
             "index": "172",
-            "missed": true
+            "missed": false
           },
           {
             "index": "173",
-            "missed": true
+            "missed": false
           },
           {
             "index": "174",
-            "missed": true
+            "missed": false
           },
           {
             "index": "175",
-            "missed": true
+            "missed": false
           },
           {
             "index": "176",
-            "missed": true
+            "missed": false
           },
           {
             "index": "177",
-            "missed": true
+            "missed": false
           },
           {
             "index": "178",
-            "missed": true
+            "missed": false
           },
           {
             "index": "179",
-            "missed": true
+            "missed": false
           },
           {
             "index": "180",
-            "missed": true
+            "missed": false
           },
           {
             "index": "181",
-            "missed": true
+            "missed": false
           },
           {
             "index": "182",
-            "missed": true
+            "missed": false
           },
           {
             "index": "183",
-            "missed": true
+            "missed": false
           },
           {
             "index": "184",
-            "missed": true
+            "missed": false
           },
           {
             "index": "185",
-            "missed": true
+            "missed": false
           },
           {
             "index": "186",
-            "missed": true
+            "missed": false
           },
           {
             "index": "187",
-            "missed": true
+            "missed": false
           },
           {
             "index": "188",
-            "missed": true
+            "missed": false
           },
           {
             "index": "189",
-            "missed": true
+            "missed": false
           },
           {
             "index": "190",
-            "missed": true
+            "missed": false
           },
           {
             "index": "191",
-            "missed": true
+            "missed": false
           },
           {
             "index": "192",
-            "missed": true
+            "missed": false
           },
           {
             "index": "193",
-            "missed": true
+            "missed": false
           },
           {
             "index": "194",
-            "missed": true
+            "missed": false
           },
           {
             "index": "195",
-            "missed": true
+            "missed": false
           },
           {
             "index": "196",
-            "missed": true
+            "missed": false
           },
           {
             "index": "197",
-            "missed": true
+            "missed": false
           },
           {
             "index": "198",
-            "missed": true
+            "missed": false
           },
           {
             "index": "199",
-            "missed": true
+            "missed": false
           },
           {
             "index": "200",
-            "missed": true
+            "missed": false
           },
           {
             "index": "201",
-            "missed": true
+            "missed": false
           },
           {
             "index": "202",
-            "missed": true
+            "missed": false
           },
           {
             "index": "203",
-            "missed": true
+            "missed": false
           },
           {
             "index": "204",
-            "missed": true
+            "missed": false
           },
           {
             "index": "205",
-            "missed": true
+            "missed": false
           },
           {
             "index": "206",
-            "missed": true
+            "missed": false
           },
           {
             "index": "207",
-            "missed": true
+            "missed": false
           },
           {
             "index": "208",
-            "missed": true
+            "missed": false
           },
           {
             "index": "209",
-            "missed": true
+            "missed": false
           },
           {
             "index": "210",
-            "missed": true
+            "missed": false
           },
           {
             "index": "211",
-            "missed": true
+            "missed": false
           },
           {
             "index": "212",
-            "missed": true
+            "missed": false
           },
           {
             "index": "213",
-            "missed": true
+            "missed": false
           },
           {
             "index": "214",
-            "missed": true
+            "missed": false
           },
           {
             "index": "215",
-            "missed": true
+            "missed": false
           },
           {
             "index": "216",
-            "missed": true
+            "missed": false
           },
           {
             "index": "217",
-            "missed": true
+            "missed": false
           },
           {
             "index": "218",
-            "missed": true
+            "missed": false
           },
           {
             "index": "219",
-            "missed": true
+            "missed": false
           },
           {
             "index": "220",
-            "missed": true
+            "missed": false
           },
           {
             "index": "221",
-            "missed": true
+            "missed": false
           },
           {
             "index": "222",
-            "missed": true
+            "missed": false
           },
           {
             "index": "223",
-            "missed": true
+            "missed": false
           },
           {
             "index": "224",
-            "missed": true
+            "missed": false
           },
           {
             "index": "225",
-            "missed": true
+            "missed": false
           },
           {
             "index": "226",
-            "missed": true
+            "missed": false
           },
           {
             "index": "227",
-            "missed": true
+            "missed": false
           },
           {
             "index": "228",
-            "missed": true
+            "missed": false
           },
           {
             "index": "229",
-            "missed": true
+            "missed": false
           },
           {
             "index": "230",
-            "missed": true
+            "missed": false
           },
           {
             "index": "231",
-            "missed": true
+            "missed": false
           },
           {
             "index": "232",
-            "missed": true
+            "missed": false
           },
           {
             "index": "233",
-            "missed": true
+            "missed": false
           },
           {
             "index": "234",
-            "missed": true
+            "missed": false
           },
           {
             "index": "235",
-            "missed": true
+            "missed": false
           },
           {
             "index": "236",
-            "missed": true
+            "missed": false
           },
           {
             "index": "237",
-            "missed": true
+            "missed": false
           },
           {
             "index": "238",
-            "missed": true
+            "missed": false
           },
           {
             "index": "239",
-            "missed": true
+            "missed": false
           },
           {
             "index": "240",
-            "missed": true
+            "missed": false
           },
           {
             "index": "241",
-            "missed": true
+            "missed": false
           },
           {
             "index": "242",
-            "missed": true
+            "missed": false
           },
           {
             "index": "243",
-            "missed": true
+            "missed": false
           },
           {
             "index": "244",
-            "missed": true
+            "missed": false
           },
           {
             "index": "245",
-            "missed": true
+            "missed": false
           },
           {
             "index": "246",
-            "missed": true
+            "missed": false
           },
           {
             "index": "247",
-            "missed": true
+            "missed": false
           },
           {
             "index": "248",
-            "missed": true
+            "missed": false
           },
           {
             "index": "249",
-            "missed": true
+            "missed": false
           },
           {
             "index": "250",
-            "missed": true
+            "missed": false
           },
           {
             "index": "251",
-            "missed": true
+            "missed": false
           },
           {
             "index": "252",
-            "missed": true
+            "missed": false
           },
           {
             "index": "253",
-            "missed": true
+            "missed": false
           },
           {
             "index": "254",
-            "missed": true
+            "missed": false
           },
           {
             "index": "255",
-            "missed": true
+            "missed": false
           },
           {
             "index": "256",
-            "missed": true
+            "missed": false
           },
           {
             "index": "257",
-            "missed": true
+            "missed": false
           },
           {
             "index": "258",
-            "missed": true
+            "missed": false
           },
           {
             "index": "259",
-            "missed": true
+            "missed": false
           },
           {
             "index": "260",
-            "missed": true
+            "missed": false
           },
           {
             "index": "261",
-            "missed": true
+            "missed": false
           },
           {
             "index": "262",
-            "missed": true
+            "missed": false
           },
           {
             "index": "263",
-            "missed": true
+            "missed": false
           },
           {
             "index": "264",
-            "missed": true
+            "missed": false
           },
           {
             "index": "265",
-            "missed": true
+            "missed": false
           },
           {
             "index": "266",
-            "missed": true
+            "missed": false
           },
           {
             "index": "267",
-            "missed": true
+            "missed": false
           },
           {
             "index": "268",
-            "missed": true
+            "missed": false
           },
           {
             "index": "269",
-            "missed": true
+            "missed": false
           },
           {
             "index": "270",
-            "missed": true
+            "missed": false
           },
           {
             "index": "271",
-            "missed": true
+            "missed": false
           },
           {
             "index": "272",
-            "missed": true
+            "missed": false
           },
           {
             "index": "273",
-            "missed": true
+            "missed": false
           },
           {
             "index": "274",
-            "missed": true
+            "missed": false
           },
           {
             "index": "275",
-            "missed": true
+            "missed": false
           },
           {
             "index": "276",
-            "missed": true
+            "missed": false
           },
           {
             "index": "277",
-            "missed": true
+            "missed": false
           },
           {
             "index": "278",
-            "missed": true
+            "missed": false
           },
           {
             "index": "279",
-            "missed": true
+            "missed": false
           },
           {
             "index": "280",
-            "missed": true
+            "missed": false
           },
           {
             "index": "281",
-            "missed": true
+            "missed": false
           },
           {
             "index": "282",
-            "missed": true
+            "missed": false
           },
           {
             "index": "283",
-            "missed": true
+            "missed": false
           },
           {
             "index": "284",
-            "missed": true
+            "missed": false
           },
           {
             "index": "285",
-            "missed": true
+            "missed": false
           },
           {
             "index": "286",
-            "missed": true
+            "missed": false
           },
           {
             "index": "287",
-            "missed": true
+            "missed": false
           },
           {
             "index": "288",
-            "missed": true
+            "missed": false
           },
           {
             "index": "289",
-            "missed": true
+            "missed": false
           },
           {
             "index": "290",
-            "missed": true
+            "missed": false
           },
           {
             "index": "291",
-            "missed": true
+            "missed": false
           },
           {
             "index": "292",
-            "missed": true
+            "missed": false
           },
           {
             "index": "293",
-            "missed": true
+            "missed": false
           },
           {
             "index": "294",
-            "missed": true
+            "missed": false
           },
           {
             "index": "295",
-            "missed": true
+            "missed": false
           },
           {
             "index": "296",
-            "missed": true
+            "missed": false
           },
           {
             "index": "297",
-            "missed": true
+            "missed": false
           },
           {
             "index": "298",
-            "missed": true
+            "missed": false
           },
           {
             "index": "299",
-            "missed": true
+            "missed": false
           },
           {
             "index": "300",
-            "missed": true
+            "missed": false
           },
           {
             "index": "555",
@@ -5900,2499 +5900,2499 @@
           },
           {
             "index": "8522",
-            "missed": true
+            "missed": false
           },
           {
             "index": "8523",
-            "missed": true
+            "missed": false
           },
           {
             "index": "8524",
-            "missed": true
+            "missed": false
           },
           {
             "index": "8525",
-            "missed": true
+            "missed": false
           },
           {
             "index": "8526",
-            "missed": true
+            "missed": false
           },
           {
             "index": "8527",
-            "missed": true
+            "missed": false
           },
           {
             "index": "8528",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9383",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9384",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9385",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9386",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9387",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9388",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9389",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9390",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9391",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9392",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9393",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9394",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9395",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9396",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9397",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9398",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9399",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9400",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9401",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9402",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9403",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9404",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9405",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9406",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9407",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9408",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9409",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9410",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9411",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9412",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9413",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9414",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9415",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9416",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9417",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9418",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9419",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9420",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9421",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9422",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9423",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9424",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9425",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9426",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9427",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9428",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9429",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9430",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9431",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9432",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9433",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9434",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9435",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9436",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9437",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9438",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9439",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9440",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9441",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9442",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9443",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9444",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9445",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9446",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9447",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9448",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9449",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9450",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9451",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9452",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9453",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9454",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9455",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9456",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9457",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9458",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9459",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9460",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9461",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9462",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9463",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9464",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9465",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9466",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9467",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9468",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9469",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9470",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9471",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9472",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9473",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9474",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9475",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9476",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9477",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9478",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9479",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9480",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9481",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9482",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9483",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9484",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9485",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9486",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9487",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9488",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9489",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9490",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9491",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9492",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9493",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9494",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9495",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9496",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9497",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9498",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9499",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9500",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9501",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9502",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9503",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9504",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9505",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9506",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9507",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9508",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9509",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9510",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9511",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9512",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9513",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9514",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9515",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9516",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9517",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9518",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9519",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9520",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9521",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9522",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9523",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9524",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9525",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9526",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9527",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9528",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9529",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9530",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9531",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9532",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9533",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9534",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9535",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9536",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9537",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9538",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9539",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9540",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9541",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9542",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9543",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9544",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9545",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9546",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9547",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9548",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9549",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9550",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9551",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9552",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9553",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9554",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9555",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9556",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9557",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9558",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9559",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9560",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9561",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9562",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9563",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9564",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9565",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9566",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9567",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9568",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9569",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9570",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9571",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9572",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9573",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9574",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9575",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9576",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9577",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9578",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9579",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9580",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9581",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9582",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9583",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9584",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9585",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9586",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9587",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9588",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9589",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9590",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9591",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9592",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9593",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9594",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9595",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9596",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9597",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9598",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9599",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9600",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9601",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9602",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9603",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9604",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9605",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9606",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9607",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9608",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9609",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9610",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9611",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9612",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9613",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9614",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9615",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9616",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9617",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9618",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9619",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9620",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9621",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9622",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9623",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9624",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9625",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9626",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9627",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9628",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9629",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9630",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9631",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9632",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9633",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9634",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9635",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9636",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9637",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9638",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9639",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9640",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9641",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9642",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9643",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9644",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9645",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9646",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9647",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9648",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9649",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9650",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9651",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9652",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9653",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9654",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9655",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9656",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9657",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9658",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9659",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9660",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9661",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9662",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9663",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9664",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9665",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9666",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9667",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9668",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9669",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9670",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9671",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9672",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9673",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9674",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9675",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9676",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9677",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9678",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9679",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9680",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9681",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9682",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9683",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9684",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9685",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9686",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9687",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9688",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9689",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9690",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9691",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9692",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9693",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9694",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9695",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9696",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9697",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9698",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9699",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9700",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9701",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9702",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9703",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9704",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9705",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9706",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9707",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9708",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9709",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9710",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9711",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9712",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9713",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9714",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9715",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9716",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9717",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9718",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9719",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9720",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9721",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9722",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9723",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9724",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9725",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9726",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9727",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9728",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9729",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9730",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9731",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9732",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9733",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9734",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9735",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9736",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9737",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9738",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9739",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9740",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9741",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9742",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9743",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9744",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9745",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9746",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9747",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9748",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9749",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9750",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9751",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9752",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9753",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9754",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9755",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9756",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9757",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9758",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9759",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9760",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9761",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9762",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9763",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9764",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9765",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9766",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9767",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9768",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9769",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9770",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9771",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9772",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9773",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9774",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9775",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9776",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9777",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9778",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9779",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9780",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9781",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9782",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9783",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9784",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9785",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9786",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9787",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9788",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9789",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9790",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9791",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9792",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9793",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9794",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9795",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9796",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9797",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9798",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9799",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9800",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9801",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9802",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9803",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9804",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9805",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9806",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9807",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9808",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9809",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9810",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9811",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9812",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9813",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9814",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9815",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9816",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9817",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9818",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9819",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9820",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9821",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9822",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9823",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9824",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9825",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9826",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9827",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9828",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9829",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9830",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9831",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9832",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9833",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9834",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9835",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9836",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9837",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9838",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9839",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9840",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9841",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9842",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9843",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9844",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9845",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9846",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9847",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9848",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9849",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9850",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9851",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9852",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9853",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9854",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9855",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9856",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9857",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9858",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9859",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9860",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9861",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9862",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9863",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9864",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9865",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9866",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9867",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9868",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9869",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9870",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9871",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9872",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9873",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9874",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9875",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9876",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9877",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9878",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9879",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9880",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9881",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9882",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9883",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9884",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9885",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9886",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9887",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9888",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9889",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9890",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9891",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9892",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9893",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9894",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9895",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9896",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9897",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9898",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9899",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9900",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9901",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9902",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9903",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9904",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9905",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9906",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9907",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9908",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9909",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9910",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9911",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9912",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9913",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9914",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9915",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9916",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9917",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9918",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9919",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9920",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9921",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9922",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9923",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9924",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9925",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9926",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9927",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9928",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9929",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9930",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9931",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9932",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9933",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9934",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9935",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9936",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9937",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9938",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9939",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9940",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9941",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9942",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9943",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9944",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9945",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9946",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9947",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9948",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9949",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9950",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9951",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9952",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9953",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9954",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9955",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9956",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9957",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9958",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9959",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9960",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9961",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9962",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9963",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9964",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9965",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9966",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9967",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9968",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9969",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9970",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9971",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9972",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9973",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9974",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9975",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9976",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9977",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9978",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9979",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9980",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9981",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9982",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9983",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9984",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9985",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9986",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9987",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9988",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9989",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9990",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9991",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9992",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9993",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9994",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9995",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9996",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9997",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9998",
-            "missed": true
+            "missed": false
           },
           {
             "index": "9999",
-            "missed": true
+            "missed": false
           }
         ],
         "xca1ekhs72gnscsqweuy7502gufypgwzd7uhhsfkw2": [
@@ -8403,6 +8403,10 @@
           {
             "index": "5062",
             "missed": false
+          },
+          {
+            "index": "6493",
+            "missed": true
           },
           {
             "index": "7271",
@@ -8437,6 +8441,10 @@
           {
             "index": "8581",
             "missed": false
+          },
+          {
+            "index": "9891",
+            "missed": true
           }
         ],
         "xca1jz77qqg8egksv5sjhmsl525uj5f97k2pnlycse": [
@@ -8447,12 +8455,20 @@
           {
             "index": "590",
             "missed": false
+          },
+          {
+            "index": "9917",
+            "missed": true
           }
         ],
         "xca1t2je2aun4nj8msedzswnl4ua7e8hwe7vc0y088": [
           {
             "index": "1635",
             "missed": false
+          },
+          {
+            "index": "9928",
+            "missed": true
           }
         ]
       },
@@ -8467,41 +8483,41 @@
       "signing_infos": {
         "xca14t38plx6wh3j45kfueh8hgqlkcp5lk4zpwujt4": {
           "address": "xca14t38plx6wh3j45kfueh8hgqlkcp5lk4zpwujt4",
-          "index_offset": "517829",
+          "index_offset": "542546",
           "jailed_until": "1970-01-01T00:00:00Z",
-          "missed_blocks_counter": "925",
+          "missed_blocks_counter": "0",
           "start_height": "0",
           "tombstoned": false
         },
         "xca1ekhs72gnscsqweuy7502gufypgwzd7uhhsfkw2": {
           "address": "xca1ekhs72gnscsqweuy7502gufypgwzd7uhhsfkw2",
-          "index_offset": "721869",
+          "index_offset": "746586",
           "jailed_until": "1970-01-01T00:00:00Z",
-          "missed_blocks_counter": "0",
+          "missed_blocks_counter": "1",
           "start_height": "0",
           "tombstoned": false
         },
         "xca1f7pucpndv4z3ahmulktuk5gvv4zfmtt8xap5fp": {
           "address": "xca1f7pucpndv4z3ahmulktuk5gvv4zfmtt8xap5fp",
-          "index_offset": "725282",
+          "index_offset": "749999",
           "jailed_until": "1970-01-01T00:00:00Z",
-          "missed_blocks_counter": "0",
+          "missed_blocks_counter": "1",
           "start_height": "0",
           "tombstoned": false
         },
         "xca1jz77qqg8egksv5sjhmsl525uj5f97k2pnlycse": {
           "address": "xca1jz77qqg8egksv5sjhmsl525uj5f97k2pnlycse",
-          "index_offset": "725282",
+          "index_offset": "749999",
           "jailed_until": "1970-01-01T00:00:00Z",
-          "missed_blocks_counter": "0",
+          "missed_blocks_counter": "1",
           "start_height": "0",
           "tombstoned": false
         },
         "xca1t2je2aun4nj8msedzswnl4ua7e8hwe7vc0y088": {
           "address": "xca1t2je2aun4nj8msedzswnl4ua7e8hwe7vc0y088",
-          "index_offset": "725282",
+          "index_offset": "749999",
           "jailed_until": "1970-01-01T00:00:00Z",
-          "missed_blocks_counter": "0",
+          "missed_blocks_counter": "1",
           "start_height": "0",
           "tombstoned": false
         }
@@ -8716,7 +8732,7 @@
     "supply": {
       "supply": [
         {
-          "amount": "170256299026",
+          "amount": "170265518467",
           "denom": "ucsdt"
         },
         {
@@ -8726,7 +8742,7 @@
       ]
     }
   },
-  "chain_id": "xar-chain-dora",
+  "chain_id": "xar-chain-dora-2",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -8742,7 +8758,7 @@
       ]
     }
   },
-  "genesis_time": "2019-12-05T14:35:13Z",
+  "genesis_time": "2019-12-05T20:37:50Z",
   "validators": [
     {
       "address": "",

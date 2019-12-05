@@ -42,7 +42,7 @@ fs.readFile(filename, 'utf8', function(err, data) {
     },
     chain_id: input.chain_id,
     consensus_params: input.consensus_params,
-    genesis_time: input.genesis_time,
+    genesis_time: migrate_genesis_time(input.genesis_time),
     validators: input.validators
   }
   fs.writeFile('genesis_hub_2_export.json', JSON.stringify(output, null, 2), function(err) {
@@ -268,5 +268,10 @@ function format_posted_price(posted_price) {
 function format_expiry(expiry) {
   var date = new Date().getTime()
   date += (expiry * 1000)
+  return new Date(new Date(date).toUTCString()).toISOString().replace(".000Z","Z")
+}
+function migrate_genesis_time(genesis_time) {
+  var date = new Date().getTime()
+  date += (1 * 60 * 60 * 1000)
   return new Date(new Date(date).toUTCString()).toISOString().replace(".000Z","Z")
 }
